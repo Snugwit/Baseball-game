@@ -38,7 +38,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* wrap logos if screen is narrow */
+    flex-wrap: wrap;
 }
 
 .team-logo {
@@ -88,7 +88,7 @@ header p {
     display: flex;
     gap: 15px;
     justify-content: center;
-    flex-wrap: wrap; /* stack on small screens */
+    flex-wrap: wrap;
 }
 
 .team {
@@ -162,39 +162,12 @@ footer {
     font-size: 0.85rem;
 }
 
-/* Responsive adjustments */
 @media (max-width: 800px) {
     .team {
-        width: 100%; /* full width on small screens */
+        width: 100%;
         margin-bottom: 20px;
     }
-
-    .team-header h2 {
-        font-size: 1.8rem;
-    }
-
-    .team-header img {
-        width: 100px;
-    }
-
-    .team p.team-leader {
-        font-size: 1.5rem;
-    }
-
-    .status {
-        font-size: 0.65rem;
-        padding: 2px 5px;
-    }
-
-    .game-info h2 {
-        font-size: 1.3rem;
-    }
-
-    .game-info p {
-        font-size: 0.9rem;
-    }
 }
-
   </style>
 </head>
 <body>
@@ -202,7 +175,6 @@ footer {
 <header>
     <div class="vs-header">
         <img src="https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png" alt="New York Yankees Logo" class="team-logo">
-        
         <img src="https://a.espncdn.com/i/teamlogos/mlb/500/nym.png" alt="New York Mets Logo" class="team-logo">
     </div>
     <p>Baseball Game</p>
@@ -230,16 +202,16 @@ footer {
         <ul class="player-list">
             <li><span class="player-name">Lucas</span><span class="status">Scheduled</span></li>
             <li><span class="player-name">Javier</span><span class="status">Scheduled</span></li>
-            <li><span class="player-name">Wilder</span><span class="status">Scheduled</span></li>
+            <li><span class="player-name">Pedro</span><span class="status">Scheduled</span></li>
             <li><span class="player-name">Samir</span><span class="status">Scheduled</span></li>
             <li><span class="player-name">Guilbian</span><span class="status">Scheduled</span></li>
+            <li><span class="player-name">Keyler</span><span class="status">Scheduled</span></li>
             <li><span class="player-name">Carlos</span><span class="status">Scheduled</span></li>
-            <li><span class="player-name">Pedro</span><span class="status">Scheduled</span></li>
         </ul>
 
-        <p class="team-leader"><strong>Team Leader:</strong> Pedro</p>
-        <p><strong>Pitcher:</strong> Wilder</p>
-        <p><strong>Catcher:</strong> N/A</p>
+        <p class="team-leader"><strong>Team Leader:</strong>Samir</p>
+        <p><strong>Pitcher:</strong> Lucas, Guilbian, Samir</p>
+        <p><strong>Catcher:</strong> IGD</p>
     </div>
 
     <!-- New York Mets -->
@@ -250,18 +222,18 @@ footer {
         </div>
 
         <ul class="player-list">
-            <li><span class="player-name">Keyler</span><span class="status">Scheduled</span></li>
+            <li><span class="player-name">Sergio</span><span class="status">Scheduled</span></li>
             <li><span class="player-name">Yadel</span><span class="status">Scheduled</span></li>
-            <li><span class="player-name">Kairon</span><span class="status">Scheduled</span></li>
+            <li><span class="player-name">Wilder</span><span class="status">Scheduled</span></li>
             <li><span class="player-name">Yandy</span><span class="status">Scheduled</span></li>
             <li><span class="player-name">Julio</span><span class="status">Scheduled</span></li>
-            <li><span class="player-name">Sergio</span><span class="status">Scheduled</span></li>
-            <li><span class="player-name na">N/A</span></li>
+            <li><span class="player-name">Carlos D.</span><span class="status">Scheduled</span></li>
+            <li><span class="player-name">Kairon</span><span class="status">Scheduled</span></li>
         </ul>
 
         <p class="team-leader"><strong>Team Leader:</strong> Yadel</p>
-        <p><strong>Pitcher:</strong> Yadel</p>
-        <p><strong>Catcher:</strong> Javier</p>
+        <p><strong>Pitcher:</strong> Yadel, Wilder</p>
+        <p><strong>Catcher:</strong> IGD</p>
     </div>
 
 </section>
